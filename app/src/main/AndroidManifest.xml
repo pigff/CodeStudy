@@ -16,6 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
+        <activity android:name=".chapter01.HideActivity">
+            <intent-filter>
+                <!--<action android:name="ACTION_START"/>-->
+                <action android:name="android.intent.action.VIEW"/>
+                <data android:scheme="http"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
