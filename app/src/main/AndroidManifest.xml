@@ -27,7 +27,9 @@
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>
-        <activity android:name=".PercentActivity">
+        <activity android:name=".chapter02.SQLActivity">
+        </activity>
+        <activity android:name=".chapter02.SharedPreferencesActivity">
         </activity>
     </application>
 
