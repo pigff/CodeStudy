@@ -1,10 +1,15 @@
 package com.androiddev.zf.firstcodestudy;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import com.androiddev.zf.firstcodestudy.chapter02.SQLActivity;
+import com.androiddev.zf.firstcodestudy.chapter07.ContentProviderActivity;
+import com.androiddev.zf.firstcodestudy.chapter07.PermissionActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -86,12 +91,20 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 startActivity(intent);
                 break;
             case R.id.btn_02:
+                Intent intent2SP = new Intent(MainActivity.this, SharedPreferences.class);
+                startActivity(intent2SP);
                 break;
             case R.id.btn_03:
+                Intent intent2SQL = new Intent(MainActivity.this, SQLActivity.class);
+                startActivity(intent2SQL);
                 break;
             case R.id.btn_04:
+                Intent intent2Permission = new Intent(MainActivity.this, PermissionActivity.class);
+                startActivity(intent2Permission);
                 break;
             case R.id.btn_05:
+                Intent intent2ContentProvider = new Intent(MainActivity.this, ContentProviderActivity.class);
+                startActivity(intent2ContentProvider);
                 break;
             case R.id.btn_06:
                 break;
