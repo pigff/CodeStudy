@@ -45,6 +45,9 @@
             android:enabled="true"
             android:exported="true">
         </provider>
+
+        <activity android:name=".chapter08.NotificationActivity">
+        </activity>
     </application>
 
 </manifest>

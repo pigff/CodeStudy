@@ -44,7 +44,7 @@
         android:id="@+id/btn_06"
         android:layout_alignParentRight="true"
         android:layout_below="@id/btn_04"
-        android:text="隐式跳转"
+        android:text="通知和照片"
         app:layout_heightPercent="10%"
         app:layout_widthPercent="50%"/>
 

@@ -10,6 +10,7 @@ import android.widget.Button;
 import com.androiddev.zf.firstcodestudy.chapter02.SQLActivity;
 import com.androiddev.zf.firstcodestudy.chapter07.ContentProviderActivity;
 import com.androiddev.zf.firstcodestudy.chapter07.PermissionActivity;
+import com.androiddev.zf.firstcodestudy.chapter08.NotificationActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -107,6 +108,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 startActivity(intent2ContentProvider);
                 break;
             case R.id.btn_06:
+                Intent intent2Notification = new Intent(MainActivity.this, NotificationActivity.class);
+                startActivity(intent2Notification);
                 break;
             case R.id.btn_07:
                 break;
