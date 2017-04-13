@@ -11,6 +11,7 @@ import com.androiddev.zf.firstcodestudy.chapter02.SQLActivity;
 import com.androiddev.zf.firstcodestudy.chapter07.ContentProviderActivity;
 import com.androiddev.zf.firstcodestudy.chapter07.PermissionActivity;
 import com.androiddev.zf.firstcodestudy.chapter08.NotificationActivity;
+import com.androiddev.zf.firstcodestudy.chapter12.MaterialActivity;
 
 public class MainActivity extends BaseActivity implements View.OnClickListener {
 
@@ -112,6 +113,8 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
                 startActivity(intent2Notification);
                 break;
             case R.id.btn_07:
+                Intent intent2Material = new Intent(MainActivity.this, MaterialActivity.class);
+                startActivity(intent2Material);
                 break;
             case R.id.btn_08:
                 break;

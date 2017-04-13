@@ -48,6 +48,11 @@
 
         <activity android:name=".chapter08.NotificationActivity">
         </activity>
+        <activity android:name=".chapter12.MaterialActivity">
+        </activity>
+        <activity android:name=".chapter12.DetailedActivity"
+            android:theme="@style/SceneActivityTheme">
+        </activity>
     </application>
 
 </manifest>
